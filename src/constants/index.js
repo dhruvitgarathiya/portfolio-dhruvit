@@ -2,11 +2,18 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
-import project5 from "../assets/projects/project-5.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `
+I build tech that solves problems.
+I’m a full-stack developer and an aspiring software engineer with a strong foundation in MERN stack, Golang, and backend development. With expertise in Data Structures, Algorithms, DBMS, OOP, OS, and Computer Networks, I focus on writing efficient, scalable, and maintainable code.
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+From developing web applications with React, Node.js, and Express to exploring microservices with Go, I’m passionate about building robust backend architectures that power real-world applications. My interests extend to cloud computing, system design, and DevOps, as I continuously refine my skills to stay ahead in the tech industry.
+
+I believe in building solutions that matter—leveraging technology to create impactful and scalable systems. Let’s connect and collaborate`;
+
+export const ABOUT_TEXT = `I am Dhruvit Garathiya, a B.Tech 3rd-year IT student at L.D. College of Engineering with a strong foundation in MERN stack development, Object-Oriented Programming (OOP), Database Management Systems (DBMS), Data Structures (DS), Computer Networks (CN), and Operating System (OS) fundamentals. I also have basic proficiency in Golang and a keen interest in backend development.
+
+As an aspiring software engineer, I am passionate about building scalable and efficient applications. I enjoy solving problems, learning new technologies, and continuously improving my skills to stay up-to-date with industry trends.`;
 
 export const EXPERIENCES = [
   {
@@ -32,47 +39,67 @@ export const EXPERIENCES = [
   },
 ];
 
+export const BLOG_POSTS = [
+  {
+    title: "Understanding React Hooks",
+    excerpt:
+      "An introduction to React Hooks and how they can be used to manage state and side effects in functional components.",
+    link: "/blog/react-hooks",
+  },
+  {
+    title: "Getting Started with Vite",
+    excerpt:
+      "A guide to setting up a new project with Vite, a fast and modern build tool for web development.",
+    link: "/blog/vite-setup",
+  },
+  {
+    title: "CSS Grid Layout",
+    excerpt:
+      "Learn how to create complex and responsive layouts with CSS Grid.",
+    link: "/blog/css-grid",
+  },
+];
+
 export const PROJECTS = [
   {
-    title: "FullStack Banking Web App",
+    title: "FullStack Job portal",
     image: project1,
-    description: "A fully functional Banking web application with features like user authentication, account management, and transaction history.",
-    technologies: ["Next.js", "TypeScript", "AppWrite", "Plaid", "Dwolla", "Zod", "Chart.js", "Shad.cn"],
+    description:
+      "A fully functional job portal web application with features like user authentication, job-serach, Application management, recrutier dashboard, error-tracking",
+    technologies: [
+      "Node.js",
+      "React.js",
+      "Express.js",
+      "MongoDB",
+      "sentry",
+      "Clerk",
+    ],
   },
   {
-    title: "AI Placement Management System",
-    image: project1,
-    description: "Designed and implemented an AI-driven placement management system to streamline the recruitment process. Developed backend algorithms using PyTorch for efficient data processing and predictive analytics. Also chat support for students to connect with mentors and mental health support.",
-    technologies: ["React.js", "MongoDB", "Nest.js", "Tailwind", "PDFKit", "PyTorch", "OAuth2/JWT"],
-  },
-  {
-    title: "Robot Bionic Hand",
+    title: "url-shortner Website",
     image: project2,
-    description: "Developed a fully functional robotic hand capable of mimicking human hand movements. Programmed using Python and integrated with ROS for seamless control. Designed and 3D printed components for precise functionality and robustness.",
-    technologies: ["Raspberry Pi", "C/C++", "Python", "ROS2", "OpenCV", "3D Printing"],
+    description:
+      "A fully functional url-shortner website with features like shorting the url.",
+    technologies: ["Node.js", "MongoDB"],
   },
   {
-    title: "Placement Query, Cyber-Security, Mental Health Chatbot",
+    title: "Text-trammer App",
     image: project3,
-    description: "Created multiple chatbots to address specific needs: placement queries, cybersecurity, and mental health. Leveraged NLP techniques and libraries such as TensorFlow, NLTK, and SpaCy to enable accurate and contextual responses. Integrated chatbots into various platforms, ensuring accessibility and ease of use.",
-    technologies: ["HTML", "CSS", "React", "Vite", "Tailwind", "Bootstrap"],
+    description:
+      "	Easily convert text case, clear the text area, count word occurrences, and copy to clipboard with a single click. Enjoy dark mode for comfortable viewing and seamless navigation using React Router",
+    technologies: ["HTML", "CSS", "Reactjs", "Bootstrap"],
   },
   {
-    title: "VR Firefighting & Flood Training Simulator",
+    title: "Portfolio Website",
     image: project4,
-    description: "Built a VR simulator for training firefighters for rescuing people in multiple fire & flood scenarios. Used Unreal Engine 5 to create realistic and interactive training environments. Integrated VR technology for an immersive training experience, and C++ for simulation logic.",
-    technologies: ["Unreal Engine 5", "Blender", "Blueprint/C++"],
-  },
-  {
-    title: "Portfolio Web",
-    image: project5,
-    description: "A platform to showcase my professional journey, with features to share my experiences, projects, and ways to contact me.",
-    technologies: ["React.js", "Tailwind", "Framer Motion"],
+    description:
+      "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
 ];
 
 export const CONTACT = {
-  address: "©steeltroops🗼tokyo ²⁰²⁵",
-  phoneNo: "+91 82734-83469",
-  email: "steeltroops.ai@gmail.com",
+  address: "Ahmedabad, Gujarat, India",
+  phoneNo: "+91 9510125285",
+  email: "dhruvitgarthiya@gmail.com",
 };

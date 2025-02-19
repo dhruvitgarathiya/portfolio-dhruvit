@@ -4,91 +4,102 @@ import project3 from "../projects/project-3.jpg";
 import project4 from "../projects/project-4.jpg";
 
 export const HERO_CONTENT = `
-I build tech that matters.
+I build tech that solves problems.
+I’m a full-stack developer and an aspiring software engineer with a strong foundation in MERN stack, Golang, and backend development. With expertise in Data Structures, Algorithms, DBMS, OOP, OS, and Computer Networks, I focus on writing efficient, scalable, and maintainable code.
 
-I’m a full-stack developer, AI aficionado, and robotics engineer obsessed with creating smart systems that seamlessly connect software and hardware. From building web apps with React, Next.js, and Bun to diving deep into ML frameworks like TensorFlow and PyTorch, I’m all about pushing tech to its limits.
+From developing web applications with React, Node.js, and Express to exploring microservices with Go, I’m passionate about building robust backend architectures that power real-world applications. My interests extend to cloud computing, system design, and DevOps, as I continuously refine my skills to stay ahead in the tech industry.
 
-Whether I'm developing AI systems or working on robotics projects with Python, C++, and ROS2, I focus on making things that are fast, scalable, and truly impactful. I'm not just coding for the sake of coding. I’m solving real-world problems and creating tech that actually makes life better.`;
+I believe in building solutions that matter—leveraging technology to create impactful and scalable systems. Let’s connect and collaborate`;
 
-export const ABOUT_TEXT = `Hey, I'm Mayank – a robotics and AI enthusiast, soon-to-be graduate in Computer Science with a focus on AI & ML at GLA University, India. I’ve been in love with tech since I wrote my first Python script at 16, and I’ve been hooked on turning ideas into reality ever since. 
+export const ABOUT_TEXT = `I am Dhruvit Garathiya, a B.Tech 3rd-year IT student at L.D. College of Engineering with a strong foundation in MERN stack development, Object-Oriented Programming (OOP), Database Management Systems (DBMS), Data Structures (DS), Computer Networks (CN), and Operating System (OS) fundamentals. I also have basic proficiency in Golang and a keen interest in backend development.
 
-I’ve built everything from a humanoid robot arm with sensors to diving deep into robotics and AI. I’m all about pushing boundaries, whether that’s optimizing robotics software, tinkering with Linux setups, or building full-stack web apps. I like to experiment, solve problems, and stay hands-on with whatever tech catches my eye. 
-
-When I’m not coding or working with hardware, you’ll probably find me bingeing some anime, exploring the latest in futuristic tech, or sharing my journey on Twitter with fellow tech enthusiasts.
-
-I’m constantly learning and building right now, I'm diving into full-stack web development, AI, and robotics, always looking for new ways to solve real-world challenges. So yeah, I don't settle for ordinary - I'm here to create something that actually makes a difference.`;
+As an aspiring software engineer, I am passionate about building scalable and efficient applications. I enjoy solving problems, learning new technologies, and continuously improving my skills to stay up-to-date with industry trends.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
+    year: "Oct 2022 - May 2024",
+    role: "Founder & Fullstack Dev",
+    company: "Inexia",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    technologies: ["Unreal Engine 5", "Blender", "Python", "C++"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "June 2023 - Oct 2023",
+    role: "Research Intern",
+    company: "Orbitx India Aerospace",
+    description: `Worked on Aviation Systems for Reusable Launch Vehicles, contributing to system improvements & reliability. Collaborated with a team of 10 engineers to enhance the efficiency by 15%.`,
+    technologies: ["Python", "Machine Learning", "PyTorch"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "Sep 2022 - Mar 2024",
+    role: "Vice President & Tech Head",
+    company: "Droid Robotics Club (GLAU)",
+    description: `Mentored over 50 students in IoT and robotics projects, leading to a 30% increase in project completion rates. Organized and led 10+ workshops and seminars on advanced robotics, impacting over 200 students.`,
+    technologies: ["Python", "C/C++", "Arduino", "Raspberry Pi", "ROS"],
+  },
+];
+
+export const BLOG_POSTS = [
+  {
+    title: "Understanding React Hooks",
+    excerpt:
+      "An introduction to React Hooks and how they can be used to manage state and side effects in functional components.",
+    link: "/blog/react-hooks",
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    title: "Getting Started with Vite",
+    excerpt:
+      "A guide to setting up a new project with Vite, a fast and modern build tool for web development.",
+    link: "/blog/vite-setup",
+  },
+  {
+    title: "CSS Grid Layout",
+    excerpt:
+      "Learn how to create complex and responsive layouts with CSS Grid.",
+    link: "/blog/css-grid",
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "FullStack Banking Web App",
+    title: "FullStack Job portal",
     image: project1,
     description:
-      "A fully functional Banking web application with features like user authentication, account management, and transaction history.",
-    technologies: ["Next.js", "React.js", "Node.js", "MongoDB"],
+      "A fully functional job portal web application with features like user authentication, job-serach, Application management, recrutier dashboard, error-tracking",
+    technologies: [
+      "Node.js",
+      "React.js",
+      "Express.js",
+      "MongoDB",
+      "sentry",
+      "Clerk",
+    ],
   },
   {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
+    title: "url-shortner Website",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A fully functional url-shortner website with features like shorting the url.",
+    technologies: ["Node.js", "MongoDB"],
+  },
+  {
+    title: "Text-trammer App",
+    image: project3,
+    description:
+      "	Easily convert text case, clear the text area, count word occurrences, and copy to clipboard with a single click. Enjoy dark mode for comfortable viewing and seamless navigation using React Router",
+    technologies: ["HTML", "CSS", "Reactjs", "Bootstrap"],
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: project4,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
 ];
 
 export const CONTACT = {
-  address: "Tokyo",
-  phoneNo: "+91 8273 483 469 ",
-  email: "steeltroops.ai@gmail.com",
+  address: "Ahmedabad, Gujarat, India",
+  phoneNo: "+91 9510125285",
+  email: "dhruvitgarthiya@gmail.com",
 };
