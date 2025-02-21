@@ -45,18 +45,24 @@ export const BLOG_POSTS = [
     excerpt:
       "An introduction to React Hooks and how they can be used to manage state and side effects in functional components.",
     link: "/blog/react-hooks",
+    content:
+      "Hey everyone! i am a student diving into the world of React, and one concept that’s completely changed how I write code is React Hooks. Hooks let you use state and lifecycle features in functional components, making them simpler and cleaner compared to class components. Before Hooks, managing state or side effects meant dealing with this and lifecycle methods, which felt overwhelming. But with Hooks like useState, useEffect, and useContext, everything became more intuitive. For instance, useState lets you add state to functional components, useEffect handles side effects like API calls, and useContext simplifies accessing global state. What’s even cooler is creating custom Hooks to reuse logic across components, making your code more modular and efficient. As a beginner, I started small, building projects like to-do lists and weather apps, which helped me grasp Hooks better. If you’re new to React, don’t stress—start with the basics, practice, and soon you’ll see how Hooks make coding more enjoyable and less complicated. Happy coding! 🚀",
   },
   {
     title: "Getting Started with Vite",
     excerpt:
       "A guide to setting up a new project with Vite, a fast and modern build tool for web development.",
     link: "/blog/vite-setup",
+    content:
+      "If you’re looking for a faster and more efficient way to build modern web applications, Vite is here to revolutionize your workflow. Created by Evan You (the mind behind Vue.js), Vite is a next-generation build tool that focuses on speed and developer experience. Unlike traditional bundlers, Vite leverages modern ES modules to serve code instantly during development, making it incredibly fast. To get started, simply install Vite using npm or yarn, create a new project with a single command, and you’re ready to go. Vite supports frameworks like React, Vue, and Svelte out of the box, and its hot module replacement (HMR) ensures changes reflect in real-time without reloading the page. Whether you’re building a small project or a large-scale app, Vite’s simplicity and performance make it a game-changer. Dive in, and experience the future of web development! 🚀",
   },
   {
     title: "CSS Grid Layout",
     excerpt:
       "Learn how to create complex and responsive layouts with CSS Grid.",
     link: "/blog/css-grid",
+    content:
+      "If you’ve ever struggled with creating complex, responsive web layouts, CSS Grid is here to make your life easier. CSS Grid is a powerful layout system that allows you to design two-dimensional layouts with rows and columns, giving you precise control over the placement and alignment of elements. Unlike older methods that rely on floats or hacks, CSS Grid simplifies the process with a clean, declarative approach. With features like fr units for flexible sizing, minmax() for dynamic ranges, and auto-fit for responsive designs, you can create everything from simple blog layouts to intricate dashboards effortlessly. Whether you’re aligning items vertically, horizontally, or both, CSS Grid provides the tools to build stunning, responsive designs without extra markup or frameworks. Dive into CSS Grid today and unlock the potential of modern web design! 🚀",
   },
 ];
 
